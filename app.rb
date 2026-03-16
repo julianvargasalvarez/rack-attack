@@ -239,7 +239,7 @@ def html(todos)
     <body>
       <div class="wrap">
         <header>
-          <h1>Just do it!<span>.</span></h1>
+          <h1>Just do it! please<span>.</span></h1>
           <p class="meta">#{remaining} remaining &mdash; #{total} total</p>
         </header>
 
