@@ -1,6 +1,8 @@
 require "sqlite3"
 require "cgi"
 
+sleep 10
+
 # ── Database setup ────────────────────────────────────────────────────────────
 
 DB = SQLite3::Database.new("todos.db")
