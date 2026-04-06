@@ -241,7 +241,7 @@ def html(todos)
     <body>
       <div class="wrap">
         <header>
-          <h1>Just done it! pretty pretty please<span>.</span></h1>
+          <h1>Just done doing it ZZZZzzzzz! pretty pretty please<span>.</span></h1>
           <p class="meta">#{remaining} remaining &mdash; #{total} total</p>
         </header>
 
