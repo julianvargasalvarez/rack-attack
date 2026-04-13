@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+ruby *_test.rb
+
+if [ $? -ne 0 ]; then
+  echo "Las pruebas estan rotas"
+  exit 1
+fi
+
+echo "Todas las pruebas estan pasando"
+git push heroku master --force
+exit 0
